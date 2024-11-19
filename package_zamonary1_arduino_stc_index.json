@@ -35,18 +35,8 @@
               "packager": "arduino_stc"
             },
             {
-              "name": "stc8051_tools",
-              "version": "v0.0.1",
-              "packager": "STCDarduino_stcuino"
-            },
-            {
               "name": "stcflash",
               "version": "v0.0.1",
-              "packager": "arduino_stc"
-            },
-            {
-              "name": "python3",
-              "version": "3.7.2-post1",
               "packager": "arduino_stc"
             }
           ]
@@ -61,21 +51,6 @@
               "host": "i686-mingw32",
               "url": "https://raw.githubusercontent.com/ma6254/stc8051_tools/main/sdcc-snapshot-i586-mingw32msvc-20220619-13511.zip",
               "archiveFileName": "sdcc-snapshot-i586-mingw32msvc-20220619-13511.zip",
-              "checksum": "SHA-256:D7BA3BAC0427E6A090F3D952CACC17AC63C726935C928DBD72707F1E2855F3D2",
-              "size": "34606196"
-            }
-          ]
-        },
-        {
-          "name": "sdcc",
-          "version": "build.13407",
-          "systems": [
-            {
-              "host": "i686-mingw32",
-              "url": "https://raw.githubusercontent.com/ma6254/stc8051_tools/main/sdcc-mcs51-i586-mingw32msvc-20220422-13407.tar.bz2",
-              "archiveFileName": "sdcc-mcs51-i586-mingw32msvc-20220422-13407.tar.bz2",
-              "checksum": "SHA-256:ee557b269e8256a59f39b428b0597525a09b4a7b80f28481e19f3fc8bac6a4f5",
-              "size": "2073934"
             }
           ]
         },
