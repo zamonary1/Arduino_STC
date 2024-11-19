@@ -1,4 +1,8 @@
 {
+  "name": "framework-stc-arduino",
+  "description": "STC microcontrollers C-framework for Arduino IDE",
+  "url": "https://github.com/zamonary1/Arduino_STC",
+  "version": "0.0.1",
   "packages": [
     {
       "name": "STC arduino core",
