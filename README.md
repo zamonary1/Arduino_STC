@@ -1,20 +1,29 @@
-# Arduino core support for STC based boards
+# Arduino IDE core for STC based boards
 
-**This project is under development and is not yet available.**
+**Fork of project by ma6254. Consider giving it a star too.**
+**This project is in early alpha state and currently doesn't work.**
 
 ## Introduction
 
-This repo adds the support of STC MCU in Arduino IDE.
+This repo adds the support of cheap STC microcontrollers to Arduino IDE.
+
+Currently supports only C syntax.
 
 ## Supported boards
 
-- STC8H Series
-- STC8G Series
+
+| Microcontroller |     Support     |
+| :---------------: | :---------------: |
+|    STC8G1K08    | 👎(in progress) |
+|   STC8G1K08A   | 👎(in progress) |
+|     STC8Hxx     |       👎       |
 
 ## Getting Started
+
+**Core doesn't properly install at the moment, contributions are welcome**
 
 Add this link in the "Additional Boards Managers URLs" field:
 
 ```
-https://github.com/ma6254/Arduino_Core_STC/raw/main/package_ma6254_stcduino_index.json
+https://raw.githubusercontent.com/zamonary1/Arduino_STC/refs/heads/main/package_zamonary1_arduino_stc_index.json
 ```

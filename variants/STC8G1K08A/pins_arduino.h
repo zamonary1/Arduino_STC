@@ -22,7 +22,7 @@ __code uint8_t PROGMEM digital_pin_to_port_PGM[] = {
 };
 
 __code uint8_t digital_pin_to_bit_mask_PGM[] = {
-    NOT_A_PIn, // Placeholder 0
+    NOT_A_PIN, // Placeholder 0
     // left
     _BV(4),    // 1 CCP2_2/CCP2/MCLKO/NRST/SCL_2/MOSI/RxD_3/T1CLKO/T0/INT2/ADC4/P5.4
     NOT_A_PIN, // 2 Vcc/AVcc
