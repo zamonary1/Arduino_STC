@@ -10,10 +10,12 @@
       },
       "platforms": [
         {
+          "category": "STCmcu",
           "name": "Arduino STC plain C core (non-C++)",
-          "architecture": "stc8051",
+          "url": "https://github.com/zamonary1/Arduino_STC/archive/refs/heads/main.zip",
           "version": "0.0.1",
-          "category": "Contributed",
+          "architecture": "stc8051",
+          "archiveFileName": "main.zip",
           "boards": [
             {
               "name": "STC8G1K08A"
@@ -26,26 +28,24 @@
             {
               "name": "sdcc",
               "version": "build.13407",
-              "packager": "STCDuino"
+              "packager": "arduino_stc"
             },
             {
               "name": "stc8051_tools",
               "version": "v0.0.1",
-              "packager": "STCDuino"
+              "packager": "STCDarduino_stcuino"
             },
             {
               "name": "stcflash",
               "version": "v0.0.1",
-              "packager": "STCDuino"
+              "packager": "arduino_stc"
             },
             {
               "name": "python3",
               "version": "3.7.2-post1",
-              "packager": "STCDuino"
+              "packager": "arduino_stc"
             }
-          ],
-          "url": "https://github.com/zamonary1/Arduino_STC/archive/refs/heads/main.zip",
-          "archiveFileName": "main.zip"
+          ]
         }
       ],
       "tools": [
